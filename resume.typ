@@ -53,8 +53,8 @@
     the pistol weapon dual functionality],
 )
 #project_item(
-  name: "Oxide",
-  skills: "Linux, Docker, Rust, Embedded",
+  name: "TBD",
+  skills: "HI!",
   date: "May 2023 - Present",
   [TODO],
   [TODO],
