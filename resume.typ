@@ -7,13 +7,12 @@
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
-  site: "ygashu.dev",
 )
 
 #resume_heading[Education]
 #edu_item(
   name: "Georgia Institute of Technology",
-  degree: "Bachelor of Science in Computer Science - GPA 3.6/4.0",
+  degree: "Bachelor of Science in Computer Science - GPA 3.85/4.0",
   location: "Atlanta, GA",
   date: "Graduating May 2027",
   [Specializing in #emph[Artificial Intelligence] & #emph[Information Internetworks]],
@@ -41,8 +40,6 @@
   name: "C# Game Development",
   skills: "Unity Game Engine",
   date: "June 2021 - Present",
-  [Created multiple 3D models using Blender and imported them into the Unity Game
-    Engine to give them functionality],
   [Utilized C\# scripts in Visual Studio Code to manipulate Unity's 3D Rigidbody
     Physics and create first-person and third-person perspective player movement
     systems],
@@ -52,27 +49,23 @@
     Unity's LineRenderer, the player's camera, and the player's input, thus giving
     the pistol weapon dual functionality],
 )
-#project_item(
-  name: "TBD",
-  skills: "HI!",
-  date: "May 2023 - Present",
-  [TODO],
-  [TODO],
-  [TODO],
-)
 #resume_heading("Awards")
 #skill_item(
   category: "Stokes Educational Scholarship",
   skills: "Selected to receive up to $30,000 in tuition scholarship, a year-round salary, and summer internships",
 )
 #skill_item(
+  category: "Monetary Award",
+  skills: "Granted by the Department of Defense for achieving high quality results as a Software Developer Intern",
+)
+#skill_item(
   category: "Georgia Tech Provost Scholarship",
   skills: "One of 60 students awarded $85,000 over four years",
 )
 #resume_heading("Technical Skills")
-#skill_item(category: "Languages", skills: "Java, TypeScript, C#, Rust, Python")
-#skill_item(category: "Frameworks", skills: "React, Vue, JUnit")
+#skill_item(category: "Languages", skills: "Java, Python, C#, Rust")
+#skill_item(category: "Frameworks", skills: "Vue, React, JUnit")
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Visual Studio Code, Unity",
+  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity",
 )
