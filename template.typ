@@ -6,7 +6,7 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 11pt, font: "New Computer Modern")
+  set text(size: 11.25pt, font: "New Computer Modern")
 
   body
 }
@@ -83,21 +83,27 @@
 
 #let exp_item_NSA() = {
   set block(above: 0.5em, below: 0.5em)
-  pad(left: 0.5em, right: 0.5em, box[
-    #grid(columns: (3fr, 1fr), align(left)[
-      *#"Department of Defense (DoD)"* \
-      _#"Artificial Intelligence Research Intern" _
-    ], align(right)[
-      #"May 2024 - Present" \
-      _#"Washington, DC" _
-    ])
-    #list("Work alongside senior researchers on a project investigating on a project knowledge graphs (KGs) from unstructured text",
-     "Build a Retrieval-Augmented Generation (RAG) pipeline, enabling a LLM to retrieve answers from text files and generate responses based on the information in the file",
-     "Develop methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
-     "Collaborate with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
-     "Contribute to advancements in novel alogrithms for identifying contradictions within KGs",
-     "Write Python scripts using pandas & numpy for efficient processing of data from PDF to KG format")
-  ])
+  pad(
+    left: 0.5em,
+    right: 0.5em,
+    box[
+      #grid(columns: (3fr, 1fr), align(left)[
+        *#"Department of Defense (DoD)"* \
+        _#"Artificial Intelligence Research Intern" _
+      ], align(right)[
+        #"May 2024 - Present" \
+        _#"Washington, DC" _
+      ])
+      #list(
+        "Work alongside senior researchers on a project investigating on a project knowledge graphs (KGs) from unstructured text",
+        "Build a Retrieval-Augmented Generation (RAG) pipeline, enabling a LLM to retrieve answers from text files and generate responses based on the information in the file",
+        "Develop methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
+        "Collaborate with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
+        "Contribute to advancements in novel alogrithms for identifying contradictions within KGs",
+        "Write Python scripts using pandas & numpy for efficient processing of data from PDF to KG format",
+      )
+    ],
+  )
   set block(above: 0.7em, below: 0.5em)
   pad(
     left: 0.5em,
@@ -114,7 +120,7 @@
         "Participated in scrum Agile development methodology, including all ceremonies",
         "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
-        "Utilized Java to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface"
+        "Utilized Java to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface",
       )
     ],
   )

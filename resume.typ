@@ -35,20 +35,6 @@
     microservices architecture, and cloud computing solutions],
 )
 
-#resume_heading("Projects")
-#project_item(
-  name: "C# Game Development",
-  skills: "Unity Game Engine",
-  date: "June 2021 - Present",
-  [Utilized C\# scripts in Visual Studio Code to manipulate Unity's 3D Rigidbody
-    Physics and create first-person and third-person perspective player movement
-    systems],
-  [Developed a modular weapon system, which allows for more efficient
-    implementation of new weapons & avoids redundancy in the code/methods],
-  [Created a grappling hook through the combined use of Unity's Physics class,
-    Unity's LineRenderer, the player's camera, and the player's input, thus giving
-    the pistol weapon dual functionality],
-)
 #resume_heading("Awards")
 #skill_item(
   category: "Stokes Educational Scholarship",
@@ -67,5 +53,5 @@
 #skill_item(category: "Frameworks", skills: "Vue, React, JUnit")
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity",
+  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity"
 )
