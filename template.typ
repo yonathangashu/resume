@@ -6,7 +6,7 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 11.25pt, font: "New Computer Modern")
+  set text(size: 11.85pt, font: "New Computer Modern")
 
   body
 }
@@ -95,10 +95,9 @@
         _#"Washington, DC" _
       ])
       #list(
-        "Work alongside senior researchers on a project investigating on a project knowledge graphs (KGs) from unstructured text",
-        "Build a Retrieval-Augmented Generation (RAG) pipeline, enabling a LLM to retrieve answers from text files and generate responses based on the information in the file",
-        "Develop methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
+        "Work alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
         "Collaborate with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
+        "Develop methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
         "Contribute to advancements in novel alogrithms for identifying contradictions within KGs",
         "Write Python scripts using pandas & numpy for efficient processing of data from PDF to KG format",
       )
@@ -116,11 +115,10 @@
       ])
       #list(
         "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
-        "Selected and completed stories within each Sprint, enabling features to be delivered on time",
+        "Utilized Java to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface",
         "Participated in scrum Agile development methodology, including all ceremonies",
         "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
-        "Utilized Java to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface",
       )
     ],
   )
