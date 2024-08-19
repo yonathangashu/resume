@@ -49,9 +49,9 @@
   skills: "One of 60 students awarded $85,000 over four years",
 )
 #resume_heading("Technical Skills")
-#skill_item(category: "Languages", skills: "Java, Python, C#, Rust")
+#skill_item(category: "Languages", skills: "Java, Python, C#, JavaScript")
 #skill_item(category: "Frameworks", skills: "Vue, React, JUnit")
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity"
+  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity",
 )
