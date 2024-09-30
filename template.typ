@@ -6,7 +6,7 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 11.85pt, font: "New Computer Modern")
+  set text(size: 12pt, font: "New Computer Modern")
 
   body
 }
@@ -21,12 +21,14 @@
   phone: "123-456-7890",
   email: "jake@su.edu",
   linkedin: "linkedin.com/in/jake",
+  website: "website.",
 ) = {
   align(center, block[
     #name_header(name) \
     #phone |
     #link("mailto:" + email)[#email] |
-    #link("https://" + linkedin)[#linkedin]
+    #link("https://" + linkedin)[#linkedin] |
+    #link(website)
   ])
   v(5pt)
 }
@@ -81,7 +83,11 @@
   ])
 }
 
-#let exp_item_NSA() = {
+/** RETIRED BULLET POINTS
+    "Contribute to advancements in novel alogrithms for identifying contradictions within KGs"
+  "Participated in scrum Agile development methodology, including all ceremonies",
+    **/
+#let exp_item_DOD() = {
   set block(above: 0.5em, below: 0.5em)
   pad(
     left: 0.5em,
@@ -91,15 +97,14 @@
         *#"Department of Defense (DoD)"* \
         _#"Artificial Intelligence Research Intern" _
       ], align(right)[
-        #"May 2024 - Present" \
+        #"May 2024 - Aug. 2024" \
         _#"Washington, DC" _
       ])
       #list(
-        "Work alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
-        "Collaborate with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
-        "Develop methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
-        "Contribute to advancements in novel alogrithms for identifying contradictions within KGs",
-        "Write Python scripts using pandas & numpy for efficient processing of data from PDF to KG format",
+        "Worked alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
+        "Collaborated with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
+        "Developed methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
+        "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format",
       )
     ],
   )
@@ -109,16 +114,15 @@
     right: 0.5em,
     box[
       #grid(columns: (3fr, 1fr), align(left)[
-        _#"Software Developer Intern" _
+        _#"Software Engineer Intern" _
       ], align(right)[
         #"Sep. 2022 - Aug. 2023"
       ])
       #list(
         "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
-        "Utilized Java to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface",
-        "Participated in scrum Agile development methodology, including all ceremonies",
-        "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
+        "Utilized " + [_#"Java"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
+        "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
       )
     ],
   )

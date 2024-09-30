@@ -1,4 +1,4 @@
-#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item, exp_item_NSA
+#import "template.typ": resume, header, resume_heading, edu_item, exp_item, project_item, skill_item, exp_item_DOD
 
 #show: resume
 
@@ -7,6 +7,7 @@
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
+  website: "ygashu.dev",
 )
 
 #resume_heading[Education]
@@ -16,17 +17,16 @@
   location: "Atlanta, GA",
   date: "Graduating May 2027",
   [Specializing in #emph[Artificial Intelligence] & #emph[Information Internetworks]],
-  [Coursework: Computer Organization, Data Structures & Algorithms, Object-Oriented
+  [Coursework: Data Structures & Algorithms, Computer Organization, Object-Oriented
     Programming, Linear Algebra],
 )
 
 #resume_heading[Experience]
-
-#exp_item_NSA()
+#exp_item_DOD()
 
 #exp_item(
   role: "Verizon",
-  name: "System Developer Intern",
+  name: "System Engineer Intern",
   location: "Remote",
   date: "Jul. 2022 - Aug. 2022",
   [Implemented GitLab and Jenkins for streamlined continuous integration and
@@ -35,23 +35,27 @@
     microservices architecture, and cloud computing solutions],
 )
 
-#resume_heading("Awards")
-#skill_item(
-  category: "Stokes Educational Scholarship",
-  skills: "Selected to receive up to $30,000 in tuition scholarship, a year-round salary, and summer internships",
-)
-#skill_item(
-  category: "Monetary Award",
-  skills: "Granted by the Department of Defense for achieving high quality results as a Software Developer Intern",
-)
+#resume_heading("Awards and Additional Experience")
 #skill_item(
   category: "Georgia Tech Provost Scholarship",
-  skills: "One of 60 students awarded $85,000 over four years",
+  skills: "Prestigious merit scholarship awarded to 60 out-of-state students, from a pool of thousands",
 )
+#skill_item(
+  category: "Stokes Educational Scholarship",
+  skills: "Selected to receive up to $30,000 in tuition scholarship annually, a year-round salary, and summer internships",
+)
+#skill_item(
+  category: "VIP Member",
+  skills: "Member of the Autonomous and Connected Driving Simulator VIP on the Cybersecurity subteam",
+)
+
 #resume_heading("Technical Skills")
-#skill_item(category: "Languages", skills: "Java, Python, C#, JavaScript")
-#skill_item(category: "Frameworks", skills: "Vue, React, JUnit")
+#skill_item(
+  category: "Languages",
+  skills: "Java, Python, C#, TypeScript, HTML, CSS",
+)
+#skill_item(category: "Frameworks", skills: "React, Node.js, Vue, JUnit")
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, JIRA, Unity",
+  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, Agile, JIRA, Unity",
 )
