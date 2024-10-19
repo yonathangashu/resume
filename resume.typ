@@ -7,7 +7,7 @@
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
-  website: "ygashu.dev",
+  site: "ygashu.dev",
 )
 
 #resume_heading[Education]

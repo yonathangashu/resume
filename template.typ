@@ -17,18 +17,18 @@
 }
 
 #let header(
-  name: "Jake Ryan",
+  name: "John Doe",
   phone: "123-456-7890",
-  email: "jake@su.edu",
-  linkedin: "linkedin.com/in/jake",
-  website: "website.",
+  email: "johndoe@su.edu",
+  linkedin: "linkedin.com/in/johndoe",
+  site: "github.com/johndoe",
 ) = {
   align(center, block[
     #name_header(name) \
     #phone |
     #link("mailto:" + email)[#email] |
     #link("https://" + linkedin)[#linkedin] |
-    #link(website)
+    #link("https://" + site)[#site]
   ])
   v(5pt)
 }
