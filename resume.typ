@@ -13,12 +13,11 @@
 #resume_heading[Education]
 #edu_item(
   name: "Georgia Institute of Technology",
-  degree: "Bachelor of Science in Computer Science - GPA 3.85/4.0",
+  degree: "Bachelor of Science in Computer Science - GPA 3.90/4.0",
   location: "Atlanta, GA",
   date: "Graduating May 2027",
   [Specializing in #emph[Artificial Intelligence] & #emph[Information Internetworks]],
-  [Coursework: Data Structures & Algorithms, Computer Organization, Object-Oriented
-    Programming, Linear Algebra],
+  [Coursework: Data Structures & Algorithms, Computer Organization, Computer Systems & Networking, Linear Algebra],
 )
 
 #resume_heading[Experience]
