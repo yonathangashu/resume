@@ -3,11 +3,11 @@
 #show: resume
 
 #header(
-  name: "Yonathan T. Gashu",
+  name: "Yonathan T. Grshu",
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
-  site: "ygashu.dev",
+  clearance: "Holding TS//SCI Clearance since 2022"
 )
 
 #resume_heading[Education]
@@ -16,7 +16,7 @@
   degree: "Bachelor of Science in Computer Science - GPA 3.93/4.0",
   location: "Atlanta, GA",
   date: "Graduating May 2027",
-  [Specializing in #emph[Artificial Intelligence] & #emph[Information Internetworks]],
+  [Specializing in #emph[Systems & Architecture] & #emph[Devices]],
   [Coursework: Data Structures & Algorithms, Computer Organization, Computer Systems & Networking, Linear Algebra],
 )
 
@@ -28,10 +28,10 @@
   name: "System Engineer Intern",
   location: "Remote",
   date: "Jul. 2022 - Aug. 2022",
-  [Implemented GitLab and Jenkins for streamlined continuous integration and
-    continuous deployment (CI/CD) processes, facilitating efficient code management],
-  [Acquired expertise in essential systems, encompassing DevOps practices, AWS,
-    microservices architecture, and cloud computing solutions],
+  [Assisted in setting up Jenkins for continuous integration and continuous deployment (CI/CD) 
+    as a part of a DevOps team, contributing to efficient code management processes],
+  [Gained foundational knowledge in DevOps practices, AWS basics, microservices architecture, 
+    and cloud computing solutions],
 )
 
 #resume_heading("Awards and Additional Experience")
@@ -51,10 +51,10 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python, C#, TypeScript, HTML, CSS",
+  skills: "C, Java, C++, Python, C#, Assembly (ARM64), JavaScript",
 )
 #skill_item(category: "Frameworks", skills: "React, Node.js, Vue, JUnit")
 #skill_item(
   category: "Developer Tools",
-  skills: "Linux, Git, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, Agile, JIRA, Unity",
+  skills: "Ghidra (Firmware Analysis, Reverse Engineering), Atlassian tools (Bitbucket, Confluence, JIRA), Linux, Git, VMware, Wireshark, Docker, Amazon Web Services, Google Cloud Platform, VS Code, IntelliJ, Jenkins, Agile, JIRA, Unity",
 )

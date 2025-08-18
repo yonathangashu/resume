@@ -6,13 +6,13 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 12pt, font: "New Computer Modern")
+  set text(size: 11pt, font: "New Computer Modern")
 
   body
 }
 
 #let name_header(name) = {
-  set text(size: 2.25em)
+  set text(size: 2.0em)
   [*#name*]
 }
 
@@ -21,14 +21,14 @@
   phone: "123-456-7890",
   email: "johndoe@su.edu",
   linkedin: "linkedin.com/in/johndoe",
-  site: "github.com/johndoe",
+  clearance: "CLEARANCE"
 ) = {
   align(center, block[
     #name_header(name) \
     #phone |
     #link("mailto:" + email)[#email] |
     #link("https://" + linkedin)[#linkedin] |
-    #link("https://" + site)[#site]
+    #clearance 
   ])
   v(5pt)
 }
@@ -85,7 +85,8 @@
 
 /** RETIRED BULLET POINTS
     "Contribute to advancements in novel alogrithms for identifying contradictions within KGs"
-  "Participated in scrum Agile development methodology, including all ceremonies",
+    "Participated in scrum Agile development methodology, including all ceremonies",
+    "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
     **/
 #let exp_item_DOD() = {
   set block(above: 0.5em, below: 0.5em)
@@ -95,16 +96,33 @@
     box[
       #grid(columns: (3fr, 1fr), align(left)[
         *#"Department of Defense (DoD)"* \
+        _#"Capabilities Development Specialist (Control Networks Section)" _
+      ], align(right)[
+        #"May 2025 - Aug. 2025" \
+        _#"Washington, DC" _
+      ])
+      #list(
+        "Employed reverse engineering techniques to examine network-enabled embedded devices and exploit firmware vulnerabilities",
+        "Developed proof-of-concept tools enabling remote code exection",
+        "Conducted static and dynamic analysis on the control flow of functions of interest to enhance understanding of device runtime behavior",
+        "Authored comprehensive documentation outlining findings and usage of created capabilities"
+      )
+    ],
+  )
+  pad(
+    left: 0.5em,
+    right: 0.5em,
+    box[
+      #grid(columns: (3fr, 1fr), align(left)[
         _#"Artificial Intelligence Research Intern" _
       ], align(right)[
         #"May 2024 - Aug. 2024" \
-        _#"Washington, DC" _
       ])
       #list(
         "Worked alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
         "Collaborated with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
         "Developed methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
-        "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format",
+        "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format"
       )
     ],
   )
@@ -122,7 +140,7 @@
         "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
         "Utilized " + [_#"Java"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
-        "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
+        "Awarded a monetary award for exceptional contirbutions"
       )
     ],
   )
