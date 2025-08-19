@@ -3,7 +3,7 @@
 #show: resume
 
 #header(
-  name: "Yonathan T. Grshu",
+  name: "Yonathan T. Gashu",
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
