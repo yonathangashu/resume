@@ -6,7 +6,7 @@
 
   set page(paper: "us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(size: 11pt, font: "New Computer Modern")
+  set text(size: 11pt, font: "Libertinus Serif")
 
   body
 }
@@ -98,12 +98,12 @@
         *#"Department of Defense (DoD)"* \
         _#"Capabilities Development Specialist (Control Networks Section)" _
       ], align(right)[
+        _#"Washington, DC" _\
         #"May 2025 - Aug. 2025" \
-        _#"Washington, DC" _
       ])
       #list(
         "Employed reverse engineering techniques to examine network-enabled embedded devices and exploit firmware vulnerabilities",
-        "Developed proof-of-concept tools enabling remote code exection",
+        "Developed proof-of-concept tools enabling remote code execution",
         "Conducted static and dynamic analysis on the control flow of functions of interest to enhance understanding of device runtime behavior",
         "Authored comprehensive documentation outlining findings and usage of created capabilities"
       )
@@ -120,7 +120,7 @@
       ])
       #list(
         "Worked alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
-        "Collaborated with researchers on the development of a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
+        "Implemented a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
         "Developed methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
         "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format"
       )
@@ -138,9 +138,9 @@
       ])
       #list(
         "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
-        "Utilized " + [_#"Java"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
+        "Utilized " + "J" + [_#"ava"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
-        "Awarded a monetary award for exceptional contirbutions"
+        //"Awarded a monetary award for exceptional contirbutions"
       )
     ],
   )
