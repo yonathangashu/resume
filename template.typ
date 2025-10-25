@@ -103,7 +103,7 @@
       ])
       #list(
         "Employed reverse engineering techniques to examine network-enabled embedded devices and exploit firmware vulnerabilities",
-        "Developed proof-of-concept tools enabling remote code execution",
+        "Developed proof-of-concept tools enabling remote code execution on embedded devices",
         "Conducted static and dynamic analysis on the control flow of functions of interest to enhance understanding of device runtime behavior",
         "Authored comprehensive documentation outlining findings and usage of created capabilities"
       )

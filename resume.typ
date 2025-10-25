@@ -7,7 +7,7 @@
   phone: "202-816-2145",
   email: "yonathangashu@gmail.com",
   linkedin: "linkedin.com/in/ygashu",
-  clearance: "Holding TS//SCI Clearance since 2022"
+  clearance: strong("Holding TS//SCI Clearance since 2022")
 )
 
 #resume_heading[Education]
@@ -42,7 +42,7 @@
   location: "Atlanta, GA",
   date: "Aug. 2025 - Present",
   [Led ECE makerspace operations on the electronics lab and embedded devices
-  attacting over 7500 monthly visitors],
+  attracting over 7500 monthly visitors],
   [Delivered training sessions on embedded systems and benchtop tools for 200+ students/semester, ensuring 100% proficiency],
 )
 
