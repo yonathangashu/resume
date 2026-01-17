@@ -119,10 +119,10 @@
         #"May 2024 - Aug. 2024" \
       ])
       #list(
-        "Worked alongside senior researchers on a project investigating how knowledge graphs (KGs) can be extracted from unstructured text",
+        "Worked with senior researchers investigating how knowledge graphs (KGs) can be extracted from unstructured text",
         "Implemented a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
         "Developed methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
-        "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format"
+        // "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format"
       )
     ],
   )
@@ -137,7 +137,7 @@
         #"Sep. 2022 - Aug. 2023"
       ])
       #list(
-        "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
+        // "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
         "Utilized " + "J" + [_#"ava"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
         "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
         //"Awarded a monetary award for exceptional contirbutions"

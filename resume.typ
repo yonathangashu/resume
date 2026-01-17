@@ -13,7 +13,7 @@
 #resume_heading[Education]
 #edu_item(
   name: "Georgia Institute of Technology",
-  degree: "Bachelor of Science in Computer Science - GPA 3.93/4.0",
+  degree: "Bachelor of Science in Computer Science - GPA 3.94/4.0",
   location: "Atlanta, GA",
   date: "Graduating May 2027",
   [Specializing in #emph[Systems & Architecture] and #emph[Devices]],
@@ -50,16 +50,19 @@
   role: "Autonomous & Connected Driving Simulator VIP",
   name: "Cybersecurity Subteam (Undergraduate Research)",
   location: "Atlanta, GA",
-  date: "Aug. 2024 - May 2025",
+  date: "Aug. 2024 - Present",
   [Engineered multimodal biometric data pipelines (_EEG, ECG, eye tracking_) in _Python/Matlab_ for preprocessing and visualization of driver states, supporting cybersecurity-focused experiments on drivers during simulated attacks],
   [Extended _Unity_ driving simulation by integrating warning systems and threat event triggers to simulate cyberattacks]
 )
 #resume_heading("Projects")
 #project_item(
-  name: "Rust-PWN",
-  skills: "Rust",
-  date: "Aug. 2025 - Present",
-  [Building a exploit tooling library in Rust for binary exploitation and reverse engineering challenges],
+  name: "LoRa Enabled Wearable Off-grid Communication (LEWOC)",
+  skills: "Rust, Embedded Systems",
+  date: "Aug. 2025 - Dec. 2025",
+  [Developed encrypted long-range text messaging device for remote areas using LoRa radio technology],
+  [Implemented display integration and UI with embedded-graphics framework on ST7735R TFT LCD],
+  [Designed physical input controls for emergency messaging, achieving 1000-foot communication range],
+  [Built using Rust/Embassy on RP2350 with Ascon encryption and Bluetooth mobile app connectivity],
 )
 
 #project_item(
