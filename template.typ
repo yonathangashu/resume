@@ -86,63 +86,60 @@
 /** RETIRED BULLET POINTS
     "Contribute to advancements in novel alogrithms for identifying contradictions within KGs"
     "Participated in scrum Agile development methodology, including all ceremonies",
-    "As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance",
     **/
+
+// Government entries: wording below is copied verbatim from the cleared
+// resume (prepub case on file). Only whole bullets have been removed
+// (kept as comments). Do not reword without re-review.
+#let gov_role(title, loc, date, ..points) = {
+  pad(left: 0.5em, right: 0.5em, box[
+    #grid(columns: (1fr, auto), column-gutter: 1em,
+      align(left)[#emph(title), #loc],
+      align(right)[#date])
+    #v(-0.15em)
+    #list(..points)
+  ])
+}
+
 #let exp_item_DOD() = {
   set block(above: 0.5em, below: 0.5em)
-  pad(
-    left: 0.5em,
-    right: 0.5em,
-    box[
-      #grid(columns: (3fr, 1fr), align(left)[
-        *#"Department of Defense (DoD)"* \
-        _#"Capabilities Development Specialist (Control Networks Section)" _
-      ], align(right)[
-        _#"Washington, DC" _\
-        #"May 2025 - Aug. 2025" \
-      ])
-      #list(
-        "Employed reverse engineering techniques to examine network-enabled embedded devices and exploit firmware vulnerabilities",
-        "Developed proof-of-concept tools enabling remote code execution on embedded devices",
-        "Conducted static and dynamic analysis on the control flow of functions of interest to enhance understanding of device runtime behavior",
-        "Authored comprehensive documentation outlining findings and usage of created capabilities"
-      )
-    ],
+  pad(left: 0.5em, right: 0.5em, box[
+    #grid(columns: (1fr, auto),
+      align(left)[*Department of Defense*],
+      align(right)[Aug. 2023 - Present])
+  ])
+  gov_role(
+    "Capabilities Development Specialist (Computer Network Exploitation Development)",
+    "Oahu, HI", "May 2026 - Aug. 2026",
+    [Conducted vulnerability analysis across multiple versions of target software and validated AI-generated proof of concept exploits through testing and debugging],
+    [Developed multi-stage attack paths demonstrating pre-authenticated and authenticated remote code execution capabilities],
+    [Identified and documented risks (artifacts, logging signatures, unencrypted payloads) to inform security considerations],
   )
-  pad(
-    left: 0.5em,
-    right: 0.5em,
-    box[
-      #grid(columns: (3fr, 1fr), align(left)[
-        _#"Artificial Intelligence Research Intern" _
-      ], align(right)[
-        #"May 2024 - Aug. 2024" \
-      ])
-      #list(
-        "Worked with senior researchers investigating how knowledge graphs (KGs) can be extracted from unstructured text",
-        "Implemented a KG-RAG system to enable Knowledge Graph Question Answering (KGQA)",
-        "Developed methodologies for Named Entity Recognition (NER) and Relationship Extraction (RE) to populate the KGs",
-        // "Wrote " + [_#"Python"_] + " scripts using pandas & numpy for efficient processing of data from PDF to KG format"
-      )
-    ],
+  gov_role(
+    "Capabilities Development Specialist (Control Networks Section)",
+    "Fort Meade, MD", "May 2025 - Aug. 2025",
+    [Employed reverse engineering techniques to examine network-enabled embedded devices and exploit firmware vulnerabilities],
+    [Developed proof-of-concept tools enabling remote code execution],
+    [Conducted static and dynamic analysis on control flow of functions of interest to enhance understanding of device runtime behavior],
+    // [Collaborated with team members on debugging efforts, tool expansion opportunities, and sharing insights from individual efforts],
+    [Authored comprehensive documentation outlining findings and usage of created capabilities],
   )
-  set block(above: 0.7em, below: 0.5em)
-  pad(
-    left: 0.5em,
-    right: 0.5em,
-    box[
-      #grid(columns: (3fr, 1fr), align(left)[
-        _#"Software Engineer Intern" _
-      ], align(right)[
-        #"Sep. 2022 - Aug. 2023"
-      ])
-      #list(
-        // "Member of the government development team in the Data Targeting Solutions division. This team is essential for the creation of enterprise applications in support of targeting using Cloud Native techniques",
-        "Utilized " + "J" + [_#"ava"_] + " to develop backend database management features for internal web application, and successfully integrated those functionalities into the frontend interface using " + [_#"VueJS"_],
-        "Created a developer-sided API to allow for more efficient creation of test agreements/datafeeds",
-        //"Awarded a monetary award for exceptional contirbutions"
-      )
-    ],
+  gov_role(
+    "Computer Systems Researcher (Artificial Intelligence Research Office)",
+    "Fort Meade, MD", "May 2023 - Aug. 2024",
+    [Worked alongside senior researchers to investigate the extraction of knowledge graphs (KGs) from unstructured text],
+    [Collaborated on the development of a KG-RAG system to enable Knowledge Graph Question Answering],
+    // [Developed methodologies for Named Entity Recognition and Relationship Extraction to populate KGs],
+    // [Wrote Python scripts for efficient data processing and conversion to KG format],
+  )
+  gov_role(
+    "Software Engineer Intern (Data Targeting Solutions Division)",
+    "Fort Meade, MD", "Sep. 2022 - Aug. 2023",
+    // [Member of the government development team within the Data Targeting Solutions division, contributing to the creation of enterprise applications using Cloud Native techniques in support of targeting],
+    [Utilized Java to develop backend database management features for an internal web application and successfully integrated those functionalities into the frontend interface using VueJS],
+    [Created a developer-sided API to streamline the creation of test agreements/datafeeds],
+    // [As part of a DevOps team, supported project from requirements gathering, development, unit testing, integration testing to deployment and maintenance],
+    // [Awarded a monetary award for exceptional contributions],
   )
 }
 
